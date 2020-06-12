@@ -24,7 +24,7 @@ public class Mark {
     }
 
     public static void readInfo() throws FileNotFoundException {
-        Scanner scanner = new Scanner(new FileReader("resources/Data.csv"));
+        Scanner scanner = new Scanner(new FileReader("resources2/Data.csv"));
         for (int i = 0; i < 65; ++i) {
             String s = scanner.nextLine();
             String[] str = s.split("\t");

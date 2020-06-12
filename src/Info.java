@@ -7,6 +7,7 @@ public class Info {
         this.x = x;
         this.d = d;
         this.y = y;
+        //2
     }
 
     public Integer getX() {
